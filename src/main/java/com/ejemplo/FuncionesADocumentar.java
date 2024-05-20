@@ -53,6 +53,11 @@ public class FuncionesADocumentar {
         return mayor;
     }
 
+    /**
+     * Devuelve el valor mínimo en un array de enteros.
+     * @param a Un array de enteros.
+     * @return El entero más pequeño del array.
+     */
     public static int menor(int a[]) {
         int menor = a[0];
         for (int i = 1; i < a.length; i++)
