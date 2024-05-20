@@ -66,6 +66,10 @@ public class FuncionesADocumentar {
         return menor;
     }
 
+    /**
+     * Muestra en la consola un array de enteros en orden inverso, comenzando desde el último elemento hasta el primero.
+     * @param a  Un array de enteros.
+     */
     public static void invertir(int a[]) {
         for (int i = a.length - 1; i >= 0; i--)
             System.out.print(a[i] + " ");
