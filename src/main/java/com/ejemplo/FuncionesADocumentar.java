@@ -76,6 +76,10 @@ public class FuncionesADocumentar {
         System.out.println();
     }
 
+    /**
+     * Imprime en la consola los elementos de un array de enteros en orden ascendente.
+     * @param a Un array de enteros.
+     */
     public static void ordenar(int a[]) {
         int aux;
         for (int i = 0; i < a.length - 1; i++)
