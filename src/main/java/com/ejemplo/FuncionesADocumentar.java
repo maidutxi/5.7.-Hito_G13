@@ -40,6 +40,11 @@ public class FuncionesADocumentar {
         return suma(a) / a.length;
     }
 
+    /**
+     * Función que obtiene el valor máximo del array.
+     * @param a El parámetro a es el array del que se desea encontrar el valor máximo.
+     * @return Devuelte el número más alto de todos los números del array.
+     */
     public static int mayor(int a[]) {
         int mayor = a[0];
         for (int i = 1; i < a.length; i++)
