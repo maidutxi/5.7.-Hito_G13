@@ -20,9 +20,9 @@ public class FuncionesADocumentar {
     }
 
     /**
-     *
-     * @param a
-     * @return
+     *Función que calcula la suma de todos los elementos en un array.
+     * @param a El parámetro a es el array cuyos elementos se sumarán.
+     * @return La suma total de los elementos del array.
      */
     public static int suma(int a[]) {
         int suma = 0;
