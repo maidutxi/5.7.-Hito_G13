@@ -31,6 +31,11 @@ public class FuncionesADocumentar {
         return suma;
     }
 
+    /**
+     * Método que devuelve el promedio de todos los números del array.
+     * @param a El parámetro a define el array del que se quiere saber la media.
+     * @return devuelve el promedio de los elementos del array.
+     */
     public static double promedio(int a[]) {
         return suma(a) / a.length;
     }
